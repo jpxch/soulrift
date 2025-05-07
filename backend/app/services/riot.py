@@ -3,4 +3,4 @@ def get_matchup_tip(champion: str, vs: str) -> str:
         ("Ahri", "Zed"): "Play safe until level 6, use charm when he ults.",
         ("Darius", "Teemo"): "Use bushes to avoid poke, go for all-in at 3.",
     }
-    return tips.get((champion, vs), "No matchup top found yet.")
+    return tips.get((champion, vs), "No matchup tip found yet.")
