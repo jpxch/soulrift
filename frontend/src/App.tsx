@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import champions from "./data/champions.json";
+import Runes from "./Runes";
 
 function App() {
   const [champion, setChampion] = useState("");
@@ -39,6 +40,7 @@ function App() {
       </select>
 
       <button onClick={fetchTip}>Get Tip</button>
+      {champion && vs && <Runes champion={champion} vs={vs} />}
 
       {tip && (
         <div className="tip-box">

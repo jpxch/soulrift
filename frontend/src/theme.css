@@ -71,3 +71,35 @@ button:hover {
   margin-top: 1rem;
   border-radius: var(--soul-radius);
 }
+
+.runes-container {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(15, 15, 20, 0.7);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #5617bb;
+}
+
+.rune-box {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(20, 20, 25, 0.6);
+    border-left: 3px solid #8147ff;
+    border-radius: 0.3rem;
+}
+
+.rune-pill {
+    display: inline-block;
+    margin: 0.25rem;
+    padding: 0.3 0.6rem;
+    background: #2c1a4f;
+    color: #fff;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-family: monospace;
+}
+
+.win-rate {
+    color: #7aff95;
+    font-weight: bold;
+}
